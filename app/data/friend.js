@@ -1,5 +1,5 @@
 
-const friendsObj = {
+const friendsObj = [{
     "name": "Ahmed",
     "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
     "scores": [
@@ -13,7 +13,9 @@ const friendsObj = {
         5,
         4,
         1
-    ],
+    ]
+}, 
+{
     "name": "Sean",
     "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
     "scores": [
@@ -28,8 +30,57 @@ const friendsObj = {
         2,
         4
     ]
-
-
+}, 
+{
+    "name": "Mike",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
+        1,
+        3,
+        2,
+        6,
+        5,
+        1,
+        2,
+        1,
+        2,
+        4
+    ]
+}, 
+{
+    "name": "John",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
+        1,
+        3,
+        2,
+        6,
+        5,
+        1,
+        2,
+        1,
+        2,
+        4
+    ]
+}, 
+{
+    "name": "Liz",
+    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores": [
+    1,
+    3,
+    2,
+    6,
+    5,
+    1,
+    2,
+    1,
+    2,
+    4
+]
 }
+]
+
+
 
 module.exports = friendsObj;
