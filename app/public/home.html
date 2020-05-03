@@ -2,50 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>FriendFinder</title>
-
-  <!-- Latest compiled and minified CSS & JS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-  <!-- Font Awesome Glyphicons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
+    <div class="row">
+        <div class="col s4">
+            <h1 id="main-title">
 
-  <div class="container">
+            </h1>
+        </div>
+        <div class="col s4">
+            <h1 id="main-title">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder
+            </h1>
+        </div>
+        <div class="col s4">
+            <h1 id="main-title">
 
-    <div class="jumbotron">
-      <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
-      <hr>
-      <h2>Answer a few basic questions. </h2>
-      <h2>Then find the friend with the greatest compatibility!</h2>
-      <br>
+            </h1>
 
-      <div>
-        <a href="/survey"><button type="button" class="btn btn-lg btn-primary">
-            <h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4>
-          </button></a>
-      </div>
-
+        </div>
     </div>
+    <div class="container">
+        <div class="headers">
 
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub
-            Repo</a></p>
-      </div>
-    </footer>
+            <hr>
+            <h6>Press find below to find matches with similar personalities.</h6>
+            <br>
+        </div>
 
-  </div>
-
-
-
-
+        <div class="row">
+            <div class="col s2">
+                <a href="/survey" class="btn-floating btn-large pulse">FIND</a>
+            </div>
+            <div class="col s2">
+                <a href="/api/friends" class="btn-floating btn-large pulse">API
+                </a>
+            </div>
+            <div class="col s2">
+                <a href="https://github.com/Sean-source/" class="btn-floating btn-large pulse">Git</a>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>

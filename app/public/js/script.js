@@ -1,5 +1,6 @@
 
-$('#submit').on("click", function() {
+
+$('#submit').on("click", function () {
     const newFriend = {};
     newFriend.name = $('#name').val();
     newFriend.photo = $('#photo').val();
@@ -23,8 +24,10 @@ $('#submit').on("click", function() {
         url: "/api/friends",
         method: "POST",
         data: newFriend
-    }).then (function(data) {
-
+    }).then(function (data) {
+        $('#results-modal').modal('show');
+        $('#match-name').html(data.name);
+        $('#match-img').attr('src',data.photo);
         console.log(data);
     })
 })

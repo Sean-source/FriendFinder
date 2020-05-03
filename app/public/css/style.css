@@ -1,3 +1,24 @@
 body {
-    background-color: blue;
+  background-color: #eeffcc;
+  height: 100vh;
+  width: 100vw;
 }
+
+.container {
+  position: absolute;
+  padding: 5vh;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.container .headers {
+  text-align: center;
+  top: 5vh;
+}
+
+#main-title {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 59px;
+}
+/*# sourceMappingURL=style.css.map */
